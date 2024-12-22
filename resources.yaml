@@ -5,7 +5,3 @@ metadata:
   labels:
     name: expense
     environment: dev
-spec:
-  containers:
-  - name: nginx
-    image: nginx:stable-otel
