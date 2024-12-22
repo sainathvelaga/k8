@@ -4,7 +4,7 @@ metadata:
   name: nginx
 spec:
   containers:
-  - name: nginx
+  - name: nginx-stable
     image: nginx:stable-otel
   - name: alma
     image: almalinux:9
