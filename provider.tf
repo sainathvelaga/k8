@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "sainathdevops-state"
+    bucket = "sainathdevops-state1"
     key    = "sandbox"
     region = "us-east-1"
     dynamodb_table = "terraform-lock-table"
