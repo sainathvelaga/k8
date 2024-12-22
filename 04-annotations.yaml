@@ -12,3 +12,8 @@ spec:
   containers:
   - name: tomcat
     image: tomcat
+    env:
+    - name: course
+      value: 'kubernetes'
+    - name: duration
+      value: '20hours'
