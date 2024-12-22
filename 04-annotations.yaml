@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: env
+  name: limits
   labels:
     course: k8
     trainer: sivakumar
