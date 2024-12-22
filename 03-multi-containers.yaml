@@ -10,8 +10,7 @@ spec:
   containers:
   - name: nginx-stable
     image: nginx:stable-otel
-    namespace: expense
+
   - name: alma
     image: almalinux:9
     command: ["sleep","2000"]
-    namespace: expense
