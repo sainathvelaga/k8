@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-stable
+  namespace: expense
   labels:
     course: k8
     trainer: sivakumar
